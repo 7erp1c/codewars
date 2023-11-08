@@ -14,3 +14,9 @@ function saleHotdogs(n){
     else if (n >= 10)
         return n * 90;
 }
+//Продвинутый вариант
+public class SaleHotdogs{
+    public static int saleHotdogs(final int n){
+    return (n < 5) ? 100 * n : (n < 10) ? 95 * n : 90 * n;
+}
+}
