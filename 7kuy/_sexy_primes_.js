@@ -2,8 +2,14 @@
 your job is to complete the function which returns true if x & y are sexy, false otherwise.*/
 
 function sexy_prime(x, y){
-    if(x - y == 6 || x - y ==-6){
+    if(x === -1 || y === -1){
         return true;}
+    else if(x === 1 || y === 1){
+        return false;
+    }
+    else if(x - y === 6 || x - y === -6){
+        return false;
+    }
     else
         return false;
 }
