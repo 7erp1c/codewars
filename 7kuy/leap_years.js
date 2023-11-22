@@ -5,8 +5,7 @@ but years divisible by 400 are leap years.
 Tested years are in range 1600 ≤ year ≤ 4000.*/
 
 function isLeapYear(year) {
-    if(0 == year%400) return true;
-    if(0 == year%100) return false;
-    if(0 == year%4) return true;
-    return false;
+
+    return (year % 400 === 0)||(year % 4 === 0 && year%100!==0);//
 }
+///надо догодаться использовать последние выражение через &&; Год високосный если делеться на 4 но не делится на 100ж
