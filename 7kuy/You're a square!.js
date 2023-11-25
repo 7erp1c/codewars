@@ -9,7 +9,6 @@ var isSquare = function(n){
         if (i ** 2 === n){//
             return true;
         } else;
-
     }
     return false;
     // fix me
