@@ -2,7 +2,7 @@
 function getCount(str) {
     let res = 0;
 
-    let arr = str.split('');//
+    let arr = str.split('');//разделяет строку и создаёт массив
     console.log(arr)
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === 'a' || arr[i] === 'e' || arr[i] === 'i' || arr[i] === 'o' || arr[i] === 'u')
