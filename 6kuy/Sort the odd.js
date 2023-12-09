@@ -3,10 +3,10 @@ function sortArray(array) {
     const odd = array.filter((x) => x % 2).sort((a,b) => a - b);
     console.log(odd);
     return array.map((x) => x % 2 ? odd.shift() : x);
-}
+} console.log(sortArray([5, 8, 6, 3, 4]));
 
 //Второй способ
-function sortArray(array1) {
+function sortArray1(array1) {
     // Return a sorted array.
     var ans = [],
         odd = [];
