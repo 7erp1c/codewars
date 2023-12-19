@@ -6,4 +6,6 @@ function rot13(message){
         return message.replace(/[a-z]/gi, a => Alpha[Alpha.indexOf(a)+13]);
 
 }
-console.log(rot13('test'));
+console.log(rot13('EBG13 rknzcyr.'));
+
+//'abcdefghijklmnopqrstuvwxyz abcdefghijklm ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM'; //следование
